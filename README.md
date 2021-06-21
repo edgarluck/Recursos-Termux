@@ -10,3 +10,5 @@ Script hecho en bash, Descargará todos los recursos necesarios para empezar con
    $ cd Recursos-Termux
    $ chmod 777 Recursos.sh
    $ bash Recursos.sh
+
+TELEGRAM: https://t.me/EdgarLuck
