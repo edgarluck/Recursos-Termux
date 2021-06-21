@@ -502,6 +502,6 @@ sleep 4
 echo -e ${verde}"
       ° GRACIAS POR UTILIZAR MI SCRIPT.....      ✓
       ° ESPERO QUE TE HAYA SIDO DE UTILIDAD.....  ✓
-      °	CREADO POR LUCK STRIKE...  ✓
+      °	CREADO POR EdgarLuck...  ✓
 "
 sleep 5
