@@ -3,7 +3,7 @@ Script hecho en bash, Descargará todos los recursos necesarios para empezar con
 🔰REQUISITOS🔰
   [✓] git
 🔰Instalación En Termux🔰
-   $ apt actualización
+   $ apt update
    $ apt upgrade
    $ pkg install git
    $ git clone https://github.com/edgarluck/Recursos-Termux.git
