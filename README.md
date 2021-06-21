@@ -1,11 +1,11 @@
 # Recursos-Termux
 Script hecho en bash, Descargará todos los recursos necesarios para empezar con Termux
-🔰 REQUISITOS🔰
+🔰REQUISITOS🔰
   [✓] git
-🔰 Instalación En Termux 🔰
-   $ apt update
+🔰Instalación En Termux🔰
+   $ apt actualización
    $ apt upgrade
    $ pkg install git
-   $ 
+   $ git clone https://github.com/edgarluck/Recursos-Termux.git
    $ cd Recursos-Termux
    $ bash Recursos.sh
