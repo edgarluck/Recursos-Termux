@@ -20,7 +20,7 @@ verde='\033[32m'
 amarillo='\033[33m'
 magenta='\033[1;35m'
 blanco='\033[37m'
-
+cyan='\033[1;36m'
 
 clear
 
@@ -359,133 +359,197 @@ echo ""
 echo -e ${verde}"°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°"
 sleep 2
 echo ""
-echo -e ${verde}"       [✓]util-linux se descargo correctamente"
+echo -e ${verde}"       
+[+]${blanco} util-linux se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]coreutils se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} coreutils se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]fortune se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} fortune se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]vim se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} vim se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]python se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} python se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]python2 se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} python2 se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]ruby se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} ruby se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]perl se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} perl se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]clang se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} clang se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]curl se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} curl se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]wget se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} wget se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]make se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} make se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]openssl se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} openssl se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]openssl-tool se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} openssl-tool se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]php se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} php se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]zip se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} zip se descargo correctamente"
 sleep 1
-echo -e ${verde}"       [✓]mlocate se descargo correctamente"
+echo -e ${verde}"       
+[+]${blanco} mlocate se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]unzip se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} unzip se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]tar se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} tar se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]w3m se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} w3m se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]neofetch se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} neofetch se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]weechat se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} weechat se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]irssi se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} irssi se descargo correctamente"
 sleep 1
-echo -e ${verde}"       [✓]tor se descargo correctamente"
+echo -e ${verde}"       
+[+]${blanco} tor se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]torsocks se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} torsocks se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]proxychains-ng se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} proxychains-ng se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]htop se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} htop se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]bison se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} bison se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]megatools se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} megatools se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]findutils se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} findutils se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]git se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} git se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]apr se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} apr se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]apr-util se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} apr-util se descargo correctamente"
 sleep 1
-echo -e ${verde}"       [✓]openssh se descargo correctamente"
+echo -e ${verde}"       
+[+]${blanco} openssh se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]apache2 se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} apache2 se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]mariadb se descargo correctamente "
+echo -e ${verde}"	
+[+]${blanco} mariadb se descargo correctamente "
 sleep 1
-echo -e ${verde}"       [✓]php-apache se descargo correctamente"
+echo -e ${verde}"       
+[+]${blanco} php-apache se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]libtool se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} libtool se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]pkg-config se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} pkg-config se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]termux-tools se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} termux-tools se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]ncurses-utils se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} ncurses-utils se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]ncurses se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} ncurses se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]termux-elf-cleaner se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} termux-elf-cleaner se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]man se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} man se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]termux-api se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} termux-api se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]axel se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} axel se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]libmpc se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} libmpc se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]libmpc-static se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} libmpc-static se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]libmpfr se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} libmpfr se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]libmpfr-static se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} libmpfr-static se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]libxml2 se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} libxml2 se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]libxml2-static se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} libxml2-static se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]libxml2-utils se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} libxml2-utils se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]libxslt se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} libxslt se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]libxslt-static se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} libxslt-static se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]libsodium se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} libsodium se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]libsodium-static se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} libsodium-static se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]gnupg se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} gnupg se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]gpgme se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} gpgme se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]libassuan se descargo correctamente "
+echo -e ${verde}"	
+[+]${blanco} libassuan se descargo correctamente "
 sleep 1
-echo -e ${verde}"	[✓]libgcrypt se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} libgcrypt se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]libgpg-error se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} libgpg-error se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]dnsutils se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} dnsutils se descargo correctamente"
 sleep 1
-echo -e ${verde}"	[✓]debianutils se descargo correctamente"
+echo -e ${verde}"	
+[+]${blanco} debianutils se descargo correctamente"
 sleep 1	
 echo ""
 echo -e ${magenta}"   +    +++++++++++++++++++++++++++++++++   +   +"
@@ -499,9 +563,7 @@ echo -e ${verde}"
  °°°°°°°°°  [SI LLEGASTE HASTA AQUI ES PORQUE AQUI TERMINA]^_^°°°°°  
 "
 sleep 4
-echo -e ${verde}"
-      ° GRACIAS POR UTILIZAR MI SCRIPT.....      ✓
-      ° ESPERO QUE TE HAYA SIDO DE UTILIDAD.....  ✓
-      °	CREADO POR EdgarLuck...  ✓
-"
-sleep 5
+echo -e ${verde}"[${blanco}*${verde}] GRACIAS POR UTILIZAR MI SCRIPT${cyan}.....  ✓
+echo -e ${verde}"[${blanco}*${verde}] ESPERO QUE TE HAYA SIDO DE UTILIDAD${cyan}.....  ✓
+echo -e ${verde}"[${blanco}*${verde}] CREADO POR EdgarLuck${cyan}...  ✓
+
