@@ -353,7 +353,7 @@ echo -e ${verde}"        + presionar ' y '                      +"
 echo -e ${magenta}"	++++++++++++++++++++++++++++++++++++++++"${blanco}
 
 sleep 4
-apt install fish util-linux coreutils fortune vim python python2 ruby perl clang curl wget make openssl openssl-tool php zip mlocate unzip tar w3m neofetch weechat irssi tor torsocks proxychains-ng htop bison megatools findutils git apr apr-util openssh apache2 mariadb php-apache libtool pkg-config termux-tools ncurses-utils ncurses termux-elf-cleaner man termux-api axel libmpc libmpc-static libmpfr libmpfr-static libxml2 libxml2-static libxml2-utils libxslt libxslt-static libsodium libsodium-static gnupg gpgme libassuan libgcrypt libgpg-error dnsutils debianutils
+apt install fish util-linux coreutils fortune vim python python2 ruby perl clang curl wget make openssl openssl-tool php zip mlocate unzip tar w3m neofetch weechat irssi tor torsocks proxychains-ng htop bison megatools findutils git apr apr-util openssh apache2 mariadb php-apache libtool pkg-config termux-tools ncurses-utils ncurses termux-elf-cleaner man termux-api axel libmpc libmpc-static libmpfr libmpfr-static libxml2 libxml2-static libxml2-utils libxslt libxslt-static libsodium libsodium-static gnupg gpgme libassuan libgcrypt libgpg-error tmate dnsutils debianutils
 clear
 echo ""
 echo -e ${verde}"°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°"
