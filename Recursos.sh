@@ -23,6 +23,7 @@ blanco='\033[37m'
 cyan='\033[1;36m'
 rojo='\033[31m'
 
+inicio(){
 clear
 cowsay Bienvenido a mi programa espero que te guste | lolcat
 sleep 2.5
@@ -38,7 +39,9 @@ echo -e "$magenta
 
 	 $rojo[03] Salir
 "
-
+}
+select(){
+inicio
 echo -e -n "$verde>>>$cyan "
 read -r opcion
 if [[ $opcion == "1" || $opcion == "01" ]];then
@@ -586,3 +589,10 @@ elif [[ $opcion == "3" || $opcion == "03" ]];then
 	echo " Hasta pronto ^_^" | lolcat
 	sleep 1.5
 	echo ""
+else 
+        echo -e "$rojo[!]$verde Opción invalida"
+        sleep 1
+        select
+    fi
+}
+select
