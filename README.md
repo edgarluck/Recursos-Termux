@@ -22,4 +22,4 @@ Script hecho en bash, Descargará todos los recursos necesarios para empezar con
    $ bash Recursos.sh
 
 
-TELEGRAM: https://t.me/EdgarLuck
+TELEGRAM: https://t.me/edgarluck
