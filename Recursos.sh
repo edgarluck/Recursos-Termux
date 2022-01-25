@@ -1,5 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
+# GIT : https://github.com/edgarluck
+# creado por @edgarluck
 # Recursos descargados:
 # Actualizando repositorios: apt update && apt upgrade -y
 # wget
