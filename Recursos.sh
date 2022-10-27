@@ -42,6 +42,8 @@ echo -e "$magenta
 	 $rojo[03] Salir
 "
 }
+
+
 select(){
 inicio
 echo -e -n "$verde>>>$cyan "
