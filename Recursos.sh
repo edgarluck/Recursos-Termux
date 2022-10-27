@@ -43,12 +43,7 @@ echo -e "$magenta
 "
 }
 
-
-select(){
-inicio
-echo -e -n "$verde>>>$cyan "
-read -r opcion
-if [[ $opcion == "1" || $opcion == "01" ]];then
+function descarga {
 echo ""
 cowsay Mi script descargara los recursos necesarios para empezar con termux | lolcat
 sleep 4
@@ -583,20 +578,28 @@ echo -e ${verde}"[${blanco}*${verde}] GRACIAS POR UTILIZAR MI SCRIPT${cyan}.....
 echo -e ${verde}"[${blanco}*${verde}] ESPERO QUE TE HAYA SIDO DE UTILIDAD${cyan}.....  ✓"
 
 echo -e ${verde}"[${blanco}*${verde}] CREADO POR @EdgarLuck${cyan}...  ✓"
-elif [[ $opcion == "2" || $opcion == "02" ]];then
-	echo ""
-	echo " Constactame Por Telegram : https://t.me/EdgarLuck
-	" | lolcat
-	sleep 1.5
-elif [[ $opcion == "3" || $opcion == "03" ]];then
-	echo ""
-	echo " Hasta pronto ^_^" | lolcat
-	sleep 1.5
-	echo ""
-else 
-        echo -e "$rojo[!]$verde Opción invalida"
-        sleep 1
-        select
-    fi
 }
-select
+
+function ocp {
+inicio
+echo -e -n "$verde>>>$cyan "
+read -r opcion
+if [[ $opcion == "1" || $opcion == "01" ]];then
+descarga
+elif [[ $opcion == "2" || $opcion == "02" ]];then
+echo ""
+echo " Constactame Por Telegram : https://t.me/EdgarLuck
+" | lolcat
+sleep 1.5
+elif [[ $opcion == "3" || $opcion == "03" ]];then
+echo ""
+echo " Hasta pronto ^_^" | lolcat
+sleep 1.5
+echo ""
+else 
+echo -e "$rojo[!]$verde Opción invalida"
+sleep 1
+ocp
+fi
+}
+
