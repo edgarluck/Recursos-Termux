@@ -25,8 +25,18 @@ blanco='\033[37m'
 cyan='\033[1;36m'
 rojo='\033[31m'
 
-inicio(){
+function inicio {
 clear
+pkg install cowsay -y
+sleep 2
+pkg install cowsay -y
+sleep 2
+pkg install ruby -y
+sleep 2
+pkg install ruby -y
+sleep 2
+gem install lolcat
+sleep 2
 cowsay Bienvenido a mi programa espero que te guste | lolcat
 sleep 2.5
 echo ""
@@ -603,3 +613,4 @@ ocp
 fi
 }
 
+ocp
